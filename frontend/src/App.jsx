@@ -10,11 +10,7 @@ function App() {
             <div className="image-container">
                 <img
                     src={placeholderImage}
-                    alt="Visualización del contador"
-                    onError={(e) => {
-                        e.target.onerror = null;
-                        e.target.src = 'https://via.placeholder.com/400x200/2A292D/FFFFFF?text=Counter+App';
-                    }}
+                    alt="Counter Breaker!!"
                 />
             </div>
             <Counter />

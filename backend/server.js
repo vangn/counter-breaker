@@ -3,7 +3,7 @@ const cors = require('cors');
 const CounterService = require('./counterService');
 
 const app = express();
-const counter = new CounterService(10); // Valor inicial 10
+const counter = new CounterService(1); // Valor inicial
 
 app.use(cors());
 app.use(express.json());
